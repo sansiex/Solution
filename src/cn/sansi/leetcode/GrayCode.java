@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 
-import utils.JsonUtils;
+import cn.sansi.utils.JsonUtils;
 
 public class GrayCode {
 	public static void main(String[] args){

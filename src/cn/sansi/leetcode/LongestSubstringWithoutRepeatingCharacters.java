@@ -4,10 +4,10 @@ import cn.sansi.utils.JsonUtils;
 
 import java.util.HashMap;
 
-public class Solution {
+public class LongestSubstringWithoutRepeatingCharacters {
 	public static void main(String[] args){
-		Solution sln=new Solution();
-		String input="bbbbb";
+		LongestSubstringWithoutRepeatingCharacters sln=new LongestSubstringWithoutRepeatingCharacters();
+		String input="abcabcbb";
 		//int[] input2={1,1,1,1,1,1,5,6};
 		long s=System.currentTimeMillis();
 		Object output=sln.lengthOfLongestSubstring(input);
@@ -25,9 +25,9 @@ public class Solution {
         for (int i = 0; i < s.length(); i++) {
             char c=s.charAt(i);
             Integer ci=map.get(c);
+            len++;
             if(ci==null){
                 map.put(c,i);
-                len++;
                 if(len>max){
                     max=len;
                 }

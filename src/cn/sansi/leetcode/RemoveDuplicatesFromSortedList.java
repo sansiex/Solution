@@ -1,6 +1,6 @@
 package cn.sansi.leetcode;
 
-import utils.JsonUtils;
+import cn.sansi.utils.JsonUtils;
 
 public class RemoveDuplicatesFromSortedList {
 	public static void main(String[] args){

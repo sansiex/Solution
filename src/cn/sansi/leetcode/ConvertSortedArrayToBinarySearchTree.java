@@ -1,10 +1,10 @@
 package cn.sansi.leetcode;
 
+import cn.sansi.utils.JsonUtils;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Stack;
-
-import utils.JsonUtils;
 
 public class ConvertSortedArrayToBinarySearchTree {
 	public static void main(String[] args){

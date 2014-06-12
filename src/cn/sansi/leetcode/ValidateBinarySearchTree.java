@@ -3,7 +3,7 @@ package cn.sansi.leetcode;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import utils.JsonUtils;
+import cn.sansi.utils.JsonUtils;
 
 public class ValidateBinarySearchTree {
 	public static void main(String[] args){

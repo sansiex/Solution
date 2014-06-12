@@ -2,7 +2,7 @@ package cn.sansi.leetcode;
 
 import java.util.HashMap;
 
-import utils.JsonUtils;
+import cn.sansi.utils.JsonUtils;
 
 public class MaxPointsonaLine {
 	public static void main(String[] args){

@@ -3,7 +3,7 @@ package cn.sansi.leetcode;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import utils.JsonUtils;
+import cn.sansi.utils.JsonUtils;
 
 public class InitUtils {
 	public static ListNode getSinglyList(String input){

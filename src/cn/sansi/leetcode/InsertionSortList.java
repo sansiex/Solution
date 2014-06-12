@@ -2,7 +2,7 @@ package cn.sansi.leetcode;
 
 import java.awt.Point;
 
-import utils.JsonUtils;
+import cn.sansi.utils.JsonUtils;
 
 public class InsertionSortList {
 	public static void main(String[] args){
